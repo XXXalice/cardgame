@@ -5,11 +5,11 @@ setup(
         'cardgame'
     ],
     name='cardgame',
-    version='1.0',
+    version='1.1',
     description='Building cardgame library',
     author='umemiya',
     author_email='euthanasia045@gmail.com',
     license='MIT',
 
-    keywords='card'
+    keywords='card cardgame'
 )

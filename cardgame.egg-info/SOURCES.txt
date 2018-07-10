@@ -1,3 +1,4 @@
+README.md
 setup.py
 cardgame/Deck.py
 cardgame/__init__.py
