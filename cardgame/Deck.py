@@ -30,3 +30,10 @@ class Deck:
         if idx == 1:
             inspected = list(map(int, inspected))
         return inspected
+
+    def distribute(self, num=1):
+        cards = []
+        for dist in range(num):
+            self.shuffle()
+            cards += self.draw()
+        return cards
